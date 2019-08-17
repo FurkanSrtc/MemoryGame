@@ -1,0 +1,41 @@
+{
+  "project_info": {
+    "project_number": "1088525756727",
+    "firebase_url": "https://keepmind-34860094.firebaseio.com",
+    "project_id": "keepmind-34860094",
+    "storage_bucket": "keepmind-34860094.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088525756727:android:f8e15b61f85ed120",
+        "android_client_info": {
+          "package_name": "com.kaprofi.keepmind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088525756727-5lcj104vcf56ia7c3nvmms55gj02hpcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT-YRJIAGQYO1G2r0-6MBaxCR0mZmeGv0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088525756727-5lcj104vcf56ia7c3nvmms55gj02hpcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-2069111242783992~7753590766"
+    }
+  ],
+  "configuration_version": "1"
+}

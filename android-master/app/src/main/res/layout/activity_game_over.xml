@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".GameOverActivity"
+        android:background="@android:color/black" android:alpha="0.8">
+
+
+    <TextView
+            android:text="GAME OVER"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" android:textSize="35sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="24dp" android:layout_marginEnd="24dp" android:textColor="#FFFFFF"/>
+    <Button
+            android:text="RETRY"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnRetry" android:background="@drawable/levelbuton"
+            android:textSize="18sp" app:layout_constraintTop_toBottomOf="@+id/btnPlayAgain"
+            android:layout_marginBottom="16dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnAds" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp" android:layout_marginEnd="32dp"
+    />
+    <Button
+            android:text="PLAY AGAIN"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnPlayAgain"
+            android:background="@drawable/levelbuton"
+            android:textSize="18sp" app:layout_constraintTop_toBottomOf="@+id/textView4"
+            android:layout_marginBottom="16dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnRetry" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="32dp" android:layout_marginEnd="32dp"
+            android:layout_marginTop="150dp"/>
+    <Button
+            android:text="Get a reward +1 live to Continue Playing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAds" android:background="@drawable/button"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginStart="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnRetry" android:layout_marginBottom="124dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="28dp"/>
+
+
+</android.support.constraint.ConstraintLayout>

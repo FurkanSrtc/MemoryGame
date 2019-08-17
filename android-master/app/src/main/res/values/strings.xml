@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Keep In Mind</string>
+
+    <string name="app_id_ads">ca-app-pub-2069111242783992~2846208001</string>
+    <string name="app_BannerAd">ca-app-pub-2069111242783992/1945804270</string>
+
+    <!--
+         <string name="app_InterstitialAd">ca-app-pub-2069111242783992/9397328000</string>
+      <string name="app_RewardedAd">ca-app-pub-2069111242783992/4145001324</string>
+  -->
+
+    <!-- Test Ads
+    <string name="app_id_ads">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="app_InterstitialAd">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="app_BannerAd">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="app_RewardedAd">ca-app-pub-3940256099942544/5224354917</string>
+ -->
+</resources>
